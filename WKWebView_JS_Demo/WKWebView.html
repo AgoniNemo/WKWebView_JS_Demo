@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <script src="text.js"></script>
+    </head>
+    
+    <script>
+        window.webkit.messageHandlers.iOS.postMessage(null);
+    </script>
+    <script>
+        var token = localStorage["accessToken"];
+        showText(token)
+        </script>
+    <body>
+        <script>
+            showText("showText!");
+            </script>
+    </body>
+</html>

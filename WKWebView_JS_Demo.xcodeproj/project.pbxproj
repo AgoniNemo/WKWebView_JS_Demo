@@ -15,6 +15,9 @@
 		BA81D0161F38542A005F3A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA81D0141F38542A005F3A92 /* LaunchScreen.storyboard */; };
 		BA81D0211F38542A005F3A92 /* WKWebView_JS_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81D0201F38542A005F3A92 /* WKWebView_JS_DemoTests.m */; };
 		BA81D02C1F38542A005F3A92 /* WKWebView_JS_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81D02B1F38542A005F3A92 /* WKWebView_JS_DemoUITests.m */; };
+		BA81D03E1F385495005F3A92 /* WeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81D03D1F385495005F3A92 /* WeakScriptMessageDelegate.m */; };
+		BA81D0401F38551A005F3A92 /* WKWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = BA81D03F1F38551A005F3A92 /* WKWebView.html */; };
+		BA81D0421F38562D005F3A92 /* text.js in Resources */ = {isa = PBXBuildFile; fileRef = BA81D0411F38562D005F3A92 /* text.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		BA81D0271F38542A005F3A92 /* WKWebView_JS_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebView_JS_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA81D02B1F38542A005F3A92 /* WKWebView_JS_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebView_JS_DemoUITests.m; sourceTree = "<group>"; };
 		BA81D02D1F38542A005F3A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA81D03C1F385495005F3A92 /* WeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		BA81D03D1F385495005F3A92 /* WeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		BA81D03F1F38551A005F3A92 /* WKWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebView.html; sourceTree = "<group>"; };
+		BA81D0411F38562D005F3A92 /* text.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = text.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,9 @@
 		BA81D0051F38542A005F3A92 /* WKWebView_JS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				BA81D0411F38562D005F3A92 /* text.js */,
+				BA81D03F1F38551A005F3A92 /* WKWebView.html */,
+				BA81D03B1F385495005F3A92 /* delegate */,
 				BA81D0091F38542A005F3A92 /* AppDelegate.h */,
 				BA81D00A1F38542A005F3A92 /* AppDelegate.m */,
 				BA81D00C1F38542A005F3A92 /* ViewController.h */,
@@ -138,6 +148,15 @@
 				BA81D02D1F38542A005F3A92 /* Info.plist */,
 			);
 			path = WKWebView_JS_DemoUITests;
+			sourceTree = "<group>";
+		};
+		BA81D03B1F385495005F3A92 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BA81D03C1F385495005F3A92 /* WeakScriptMessageDelegate.h */,
+				BA81D03D1F385495005F3A92 /* WeakScriptMessageDelegate.m */,
+			);
+			path = delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +267,9 @@
 			files = (
 				BA81D0161F38542A005F3A92 /* LaunchScreen.storyboard in Resources */,
 				BA81D0131F38542A005F3A92 /* Assets.xcassets in Resources */,
+				BA81D0421F38562D005F3A92 /* text.js in Resources */,
 				BA81D0111F38542A005F3A92 /* Main.storyboard in Resources */,
+				BA81D0401F38551A005F3A92 /* WKWebView.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +297,7 @@
 				BA81D00E1F38542A005F3A92 /* ViewController.m in Sources */,
 				BA81D00B1F38542A005F3A92 /* AppDelegate.m in Sources */,
 				BA81D0081F38542A005F3A92 /* main.m in Sources */,
+				BA81D03E1F385495005F3A92 /* WeakScriptMessageDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
