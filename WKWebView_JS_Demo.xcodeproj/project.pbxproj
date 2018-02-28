@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA518DD62046499C0055AE22 /* text.css in Resources */ = {isa = PBXBuildFile; fileRef = BA518DD52046499B0055AE22 /* text.css */; };
 		BA81D0081F38542A005F3A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81D0071F38542A005F3A92 /* main.m */; };
 		BA81D00B1F38542A005F3A92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81D00A1F38542A005F3A92 /* AppDelegate.m */; };
 		BA81D00E1F38542A005F3A92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81D00D1F38542A005F3A92 /* ViewController.m */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA518DD52046499B0055AE22 /* text.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = text.css; sourceTree = "<group>"; };
 		BA81D0031F38542A005F3A92 /* WKWebView_JS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebView_JS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA81D0071F38542A005F3A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA81D0091F38542A005F3A92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				BA81D0411F38562D005F3A92 /* text.js */,
 				BA81D03F1F38551A005F3A92 /* WKWebView.html */,
+				BA518DD52046499B0055AE22 /* text.css */,
 				BA81D03B1F385495005F3A92 /* delegate */,
 				BA81D0091F38542A005F3A92 /* AppDelegate.h */,
 				BA81D00A1F38542A005F3A92 /* AppDelegate.m */,
@@ -267,6 +270,7 @@
 			files = (
 				BA81D0161F38542A005F3A92 /* LaunchScreen.storyboard in Resources */,
 				BA81D0131F38542A005F3A92 /* Assets.xcassets in Resources */,
+				BA518DD62046499C0055AE22 /* text.css in Resources */,
 				BA81D0421F38562D005F3A92 /* text.js in Resources */,
 				BA81D0111F38542A005F3A92 /* Main.storyboard in Resources */,
 				BA81D0401F38551A005F3A92 /* WKWebView.html in Resources */,
@@ -531,6 +535,7 @@
 				BA81D0321F38542A005F3A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA81D0331F38542A005F3A92 /* Build configuration list for PBXNativeTarget "WKWebView_JS_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +544,7 @@
 				BA81D0351F38542A005F3A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA81D0361F38542A005F3A92 /* Build configuration list for PBXNativeTarget "WKWebView_JS_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +553,7 @@
 				BA81D0381F38542A005F3A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

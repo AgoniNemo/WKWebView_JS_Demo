@@ -75,12 +75,17 @@
     
     NSLog(@"JS 调用了 %@ 方法，传回参数 %@",message.name,message.body);
     
+    NSString *ocData = [NSString stringWithFormat:@"localStorage.setItem(\"data\",'%@');",@"oc data"];
+    
+    [_webview evaluateJavaScript:ocData completionHandler:^(id _Nullable result, NSError * _Nullable error) {
+        NSLog(@"%@",result);
+    }];
 }
 
 //开始
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation{
-    NSLog(@"%s",__func__);
     
+    NSLog(@"%s",__func__);
     
 }
 
